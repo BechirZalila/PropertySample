@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PropertySample</string>
+    <string name="activer">Activer</string>
+    <string name="d_sactiver">Désactiver</string>
+</resources>
