@@ -6,5 +6,5 @@ LOCAL_MODULE := libnative-lib
 LOCAL_SRC_FILES:= native-lib.cpp
 LOCAL_SHARED_LIBRARIES := libutils liblog libcutils
 LOCAL_C_INCLUDES += $(JNI_H_INCLUDE)
- 
+
 include $(BUILD_SHARED_LIBRARY)
