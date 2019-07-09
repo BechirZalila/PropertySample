@@ -4,12 +4,7 @@ LOCAL_MODULE_TAGS := eng
  
 LOCAL_MODULE := libnative-lib
 LOCAL_SRC_FILES:= native-lib.cpp
-LOCAL_SHARED_LIBRARIES := \
-	libutils liblog libcutils
- 
-LOCAL_C_INCLUDES += \
-	$(JNI_H_INCLUDE)
- 
-LOCAL_CFLAGS += -O0 -g3
+LOCAL_SHARED_LIBRARIES := libutils liblog libcutils
+LOCAL_C_INCLUDES += $(JNI_H_INCLUDE)
  
 include $(BUILD_SHARED_LIBRARY)
